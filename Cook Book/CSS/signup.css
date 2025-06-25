@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif ;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  form {
+    background-color: white;
+    max-width: 400px;
+    margin: 70px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  form div {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  form input[type="text"],
+  form input[type="password"],
+  form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  form input[type="submit"] {
+    width: 100%;
+    background-color: rgb(163 , 95 , 16);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: rgb(176, 105, 27);
+  }
+  
+  form p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  form a {
+    color: #4d64b5;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  form a:hover {
+    color: rgb(122, 106, 242);
+  }
+  .radio-group{
+    accent-color: rgb(40, 68, 229);
+  }
+  .top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(163, 95, 16);
+    color: white;
+    padding: 9px 0;
+   
+    display: flex;
+
+
+    gap: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  .top-bar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  #password-error{
+   color: red; 
+   font-size: 14px;
+  }
+ 

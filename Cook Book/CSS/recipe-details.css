@@ -1,0 +1,98 @@
+
+#recipe-detail-container {
+    max-width: 800px;
+    margin: 90px auto 7px auto ;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+
+#recipe-detail-container h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #68481c;
+}
+
+
+#recipe-detail-container img {
+    display: block;
+    margin: 0 auto 40px auto;
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+  li {
+    padding-left: 10px; 
+  }
+  ul {
+    list-style-type: disc;
+    padding-left: 0;      
+    margin-left: 60px;    
+    margin-bottom: 30px;
+  }
+    
+
+
+#recipe-detail-container p {
+    font-size: 1.2em;
+    margin: 25px 10px;
+    margin-left: 50px;
+    line-height: 1.6;
+}
+
+
+#recipe-detail-container strong {
+    color: #555;
+}
+
+/* زر الأكشن */
+#action-buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#action-buttons button {
+    background-color: rgb(163, 95, 16);
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#action-buttons button:hover {
+    background-color: #b98929;
+}
+.message-box1 {
+    display: none;
+    background-color: #1cab55; 
+    color: white;
+    padding: 10px;
+    margin: 15px auto;
+    width: fit-content;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: opacity 0.3s;
+  }
+  .message-box2 , .message-box3 {
+    display: none;
+    background-color: #f44336; 
+    color: white;
+    padding: 10px;
+    margin: 15px auto;
+    width: fit-content;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: opacity 0.3s;
+  }
