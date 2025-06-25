@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="CSS/signup.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="logo">
+   
+            <img src="images/logo.png" alt="Logo">
+            
+            </div>
+     
+         
+    </header>
+
+    <form id="signup-form" method="POST">
+        <div>
+            <label>User Name</label>
+            <input type="text" name="username" placeholder="Enter user name" required>
+        </div>
+        <br>
+        <div>
+            <label>Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required>
+        </div>
+        <br>
+        <div>
+            <label>Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm the password" required>
+            <span id="password-error"></span>
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <br>
+        <label>Account Type</label>
+        <div class="radio-group">
+            <label><input type="radio" name="is_admin" value="false" checked> User</label>
+            <label><input type="radio" name="is_admin" value="true"> Admin</label>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Sign Up">
+        </div>
+        <p>Have an account? <a href="login.html">Click here</a></p>
+    </form>
+
+    <script src="JS/confirmpassword.js"></script>
+</body>
+</html>
